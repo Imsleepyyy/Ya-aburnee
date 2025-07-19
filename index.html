@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ya'aburnee — A Love So Deep</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Quicksand&display=swap" rel="stylesheet" />
+
+  <!-- Meta for prettier sharing -->
+  <meta property="og:title" content="Ya'aburnee — A Love So Deep" />
+  <meta property="og:description" content="A heartfelt message for someone special. A love that says 'bury me before I ever have to live without you.'" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://example.com/preview.jpg" /> <!-- Replace with actual image -->
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+      font-family: 'Quicksand', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      min-height: 100vh;
+      animation: fadeIn 2s ease-in-out forwards;
+      opacity: 0;
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+
+    .card {
+      background: rgba(30, 30, 30, 0.9);
+      padding: 30px;
+      border-radius: 20px;
+      max-width: 800px;
+      width: 100%;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(8px);
+      border: 1px solid #333;
+      transform: translateY(20px);
+      animation: slideUp 1.5s ease-out forwards;
+      opacity: 0;
+      animation-delay: 1s;
+    }
+
+    @keyframes slideUp {
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      color: #ffcad4;
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: #dddddd;
+      margin-bottom: 1.2rem;
+      animation: fadeText 1s ease-in-out;
+    }
+
+    @keyframes fadeText {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .heart {
+      text-align: center;
+      font-size: 2rem;
+      color: crimson;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+      100% { transform: scale(1); }
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .heart {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Ya'aburnee</h1>
+    <p>You know, <strong>[name]</strong>, today I learned that in Arabic, they don't say <em>"I love you."</em> Instead, they say <strong>“ya'aburnee.”</strong></p>
+    <p>It roughly translates to <em>“you bury me”</em>, but the meaning runs much deeper than the words themselves.</p>
+    <p>It's an expression of a love so deep that it says: <em>“When the time comes, I hope I go before you, because I can’t imagine living in a world without you — that I hope you bury me before I have to live without you.”</em></p>
+    <p>I know we’re still at the beginning of our journey, and there are so many memories left for us to make — but the feeling behind those words still holds very true:</p>
+    <p><strong>A world without you, [name], just wouldn’t be a world worth living in for me. It’s all pointless if it’s not with you, [name].</strong></p>
+    <div class="heart">❤️</div>
+  </div>
+</body>
+</html>
